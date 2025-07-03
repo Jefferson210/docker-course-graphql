@@ -33,7 +33,7 @@ jobs:
     - name: Push Docker Image
       run: |
         docker push jefferson210/docker-graphql:0.0.2
-        docker build -t jefferson210/docker-graphql:latest
+        docker push jefferson210/docker-graphql:latest
     
     
     # - name: Build the Docker image
